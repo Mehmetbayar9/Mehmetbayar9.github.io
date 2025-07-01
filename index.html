@@ -14,20 +14,41 @@
       color: #333333;
     }
     a {
-      display: block;
+      display: inline-block;
       margin: 10px;
       text-decoration: none;
       color: #007acc;
       font-weight: bold;
       font-size: 20px;
     }
+    .content {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #333;
+    }
   </style>
 </head>
 <body>
   <h1>Hoş Geldiniz!</h1>
   <p>Bu benim GitHub Pages üzerindeki kişisel sitem.</p>
-  <a href="#">Hakkımda</a>
-  <a href="#">İletişim</a>
-  <a href="#">Kim Bu Mehmet?</a>
+  <a href="#hakkimda">Hakkımda</a>
+  <a href="#iletisim">İletişim</a>
+  <a href="#kimbu">Kim Bu Mehmet?</a>
+
+  <div class="content" id="hakkimda">
+    <h2>Hakkımda</h2>
+    <p>Merhaba! Ben Mehmet Bayar. Yazılım geliştirmeyi, web tasarımını ve yeni teknolojileri öğrenmeyi çok seviyorum.</p>
+  </div>
+
+  <div class="content" id="iletisim">
+    <h2>İletişim</h2>
+    <p>E-posta: mehmetbayar@example.com</p>
+    <p>Telefon: +90 555 555 55 55</p>
+  </div>
+
+  <div class="content" id="kimbu">
+    <h2>Kim Bu Mehmet?</h2>
+    <p>Ben bir yazılımcıyım. Web projeleri geliştiriyorum. Boş zamanlarımda fotoğrafçılık ve müzikle ilgileniyorum.</p>
+  </div>
 </body>
 </html>
